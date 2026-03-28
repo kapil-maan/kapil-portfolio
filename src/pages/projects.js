@@ -7,12 +7,18 @@ import { GithubIcon } from "@/components/Icons";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import pic1 from "../../public/images/projects/careerhunt.jpg";
-import pic2 from "../../public/images/projects/pawcare.jpg";
-import pic3 from "../../public/images/projects/calculator.jpg";
-import pic4 from "../../public/images/projects/eventopia.jpg";
-import pic5 from "../../public/images/projects/finanseer.png";
-import pic6 from "../../public/images/projects/kyr2.png"
+import pic1 from "../../public/images/projects/kyr2.png"
+import pic2 from "../../public/images/projects/weirdMonster.png";
+import pic3 from "../../public/images/projects/moneyTracker.png"
+import pic4 from "../../public/images/projects/naturalResources.png";
+import pic5 from "../../public/images/projects/kapilNinja.png"
+import pic6 from "../../public/images/projects/chatBot.png";
+import pic7 from "../../public/images/projects/weatherForecast.png";
+// import pic8 from "../../public/images/projects/jellyFish.png";
+// import pic1 from "../../public/images/projects/.png"
+// import pic1 from "../../public/images/projects/kyr2.png"
+
+
 import TransitionEffect from "@/components/transitionEffect";
 import useThemeSwitcher from "@/components/hooks/useThemeSwitcher";
 
@@ -168,38 +174,69 @@ const Projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Knowing Your Rights"
-                img={pic6}
+                img={pic1}
                 summary="An app to increase and spread constitutional literacy to all ages"
                 link="https://kyr-frontend.vercel.app/"
-                github="https://github.com/AkankshRakesh/KYR1"
+                github="https://github.com/kapil-maan/KYR1"
                 type="MERN app built on Typescript SWC and TailwindCSS"
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12 xs:col-span-12">
               <Project
-                title="Eventopia"
+                title="Weird Monster"
+                img={pic2}
+                link=""
+                github="https://github.com/kapil-maan/javascript-weird-monster"
+                type="A monster which catch you always app built on Javascript and canvas"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12 xs:col-span-12">
+              <Project
+                title="Money Tracker App"
+                img={pic3}
+                link="https://kapil-maan.github.io/Money-Tracker-App/"
+                github="https://github.com/kapil-maan/Money-Tracker-App"
+                type="MERN app to manage & track money"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12 xs:col-span-12">
+              <Project
+                title="Natural Resources"
                 img={pic4}
-                link="https://eventopia-olive.vercel.app/"
-                github="https://github.com/AkankshRakesh/Eventopia"
-                type="MERN app built on Typescript and tailwind"
+                link="https://kapil-maan.github.io/Natural-Resource/"
+                github="https://github.com/kapil-maan/Natural-Resource"
+                type="simple website for natural resource conservation awareness"
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12 xs:col-span-12">
               <Project
-                title="Finance Dashboard"
+                title="Kapil Ninja"
                 img={pic5}
-                link="https://finanseer-ruddy.vercel.app/"
-                github="https://github.com/AkankshRakesh/Finanseer-frontend"
-                type="MERN app with predictions and analytics using ML"
+                link="https://kapil-ninja.vercel.app/"
+                github="https://github.com/kapil-maan/kapil-Ninja"
+                type="HTML, CSS and JS website"
+              />
+            </div>
+
+
+            <div className="col-span-6 sm:col-span-12 xs:col-span-12">
+              <Project
+                title="Chat Bot"
+                img={pic6}
+                link=""
+                github="https://github.com/kapil-maan/my-chat-bot"
+                type="HTML, CSS and JS website"
               />
             </div>
             <div className="col-span-6 sm:col-span-12 xs:col-span-12">
               <Project
-                title="Job career search app"
-                img={pic1}
-                link="https://careerhunt.onrender.com/"
-                github="https://github.com/AkankshRakesh/CareerHunt"
-                type="MERN stack based app"
+                title="Weather Forecast app"
+                img={pic7}
+                link="https://kapil-maan.github.io/Weather-Forecast-App/"
+                github="https://github.com/kapil-maan/Weather-Forecast-App"
+                type="HTML, CSS and JS website"
               />
             </div>
             <div className="col-span-6 sm:col-span-12 xs:col-span-12">
@@ -212,47 +249,33 @@ const Projects = () => {
               />
             </div>
             <div className="col-span-6 sm:col-span-12 xs:col-span-12">
-              <article
-                className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark
-            bg-light dark:bg-dark dark:border-light p-6 relative"
-              >
-                <div
-                  className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light
-                rounded-br-3xl"
-                />
-                <FramerImage
-                  src={pic3} // Direct path to the image
-                  alt="Calculator"
-                  className="w-full h-auto"
-                  whileHover={{ scale: 1.05 }}
-                  transition={{ duration: 0.2 }}
-                />
-                <div className="w-full flex flex-col items-start justify-between mt-4">
-                  <span className="text-primary dark:text-primaryDark font-medium text-xl">
-                    Python Calculator
-                  </span>
-                  <Link
-                    href=""
-                    target="_blank"
-                    className="hover:underline underline-offset-2"
-                  >
-                    <h2 className="my-2 w-full text-left text-3xl font-bold">
-                      Calculator
-                    </h2>
-                  </Link>
-                  <div className="w-full mt-2 flex items-center justify-between">
-                    <Link
-                      href="https://github.com/AkankshRakesh/Calculator"
-                      target="_blank"
-                      className="w-10"
-                    >
-                      {" "}
-                      <GithubIcon />{" "}
-                    </Link>
-                  </div>
-                </div>
-              </article>
+              <Project
+                title="Pawcare"
+                img={pic2}
+                link="https://akankshrakesh.github.io/Paw-care/"
+                github="https://github.com/AkankshRakesh/Paw-Care"
+                type="HTML, CSS and JS website"
+              />
             </div>
+            <div className="col-span-6 sm:col-span-12 xs:col-span-12">
+              <Project
+                title="Pawcare"
+                img={pic2}
+                link="https://akankshrakesh.github.io/Paw-care/"
+                github="https://github.com/AkankshRakesh/Paw-Care"
+                type="HTML, CSS and JS website"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12 xs:col-span-12">
+              <Project
+                title="Pawcare"
+                img={pic2}
+                link="https://akankshrakesh.github.io/Paw-care/"
+                github="https://github.com/AkankshRakesh/Paw-Care"
+                type="HTML, CSS and JS website"
+              />
+            </div>
+
           </div>
         </Layout>
       </main>

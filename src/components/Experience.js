@@ -43,13 +43,35 @@ const Experience = () => {
         sm:w-[2px] sm:left-[20px] xs:w-[2px]'/>
         <ul className='w-full flex flex-col justify-between ml-2 xs:ml-2'>
             <Details 
-            type = "Web Development Intern"
-            time = "Summer 2024"
-            place = "UniNxt Study Overseas"
+            type = "App developemt intern"
+            time = "May 2025 - Present"
+            place = "Macbease"
             info = "Worked on a team responsible for developing and maintaining the official company website. In addition to that, led a team for developing a new website for the company." />
+        
+            <Details 
+            type = "C++ Data Structure Intern"
+            time = "May 2024 - July 2024"
+            place = "Harman"
+            info = "Worked on a team responsible for developing and maintaining the official company website. In addition to that, led a team for developing a new website for the company." />
+
+            <Details 
+            type = "Freelancer"
+            time = "April 2025"
+            place = "Soul Ai"
+            info = "Worked on a team responsible for developing and maintaining the official company website. In addition to that, led a team for developing a new website for the company." />
+        
+            <Details 
+            type = "Cadet"
+            time = "August 2023 - present"
+            place = "National Cadet Corps"
+            info = "Worked on a team responsible for developing and maintaining the official company website. In addition to that, led a team for developing a new website for the company." />
+        
         </ul>
+        
       
       </div>
+
+      
     </div>
   )
 }

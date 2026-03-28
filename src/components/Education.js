@@ -44,19 +44,14 @@ const Education = () => {
         <ul className='w-full flex flex-col justify-between ml-2 xs:ml-2'>
             <Details 
             type = "Bachelor Of Engineering In Computer Science"
-            time = "2023-now"
+            time = "2023-2027"
             place = "Lovely Professional University (LPU)"
             info = "Relevant courses include Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence." />
             <Details 
             type = {`Senior Secondary (11th-12th)`}
-            time = "2021-2023"
+            time = "2020-2022"
             place = "Kendriya Vidyalaya No.1, Chandimandir Cantt, Panchkula"
-            info = "First division holder in 12th Boards with 9.7 CGPA in PCM-Physics, Chemistry and Maths alongside Computer Science." />
-            <Details 
-            type = "Primary School (1st - 10th)"
-            time = "2010-2020"
-            place = "Delhi Public School, Greater Noida"
-            info = "First division holder in 10th Boards with 9.6 CGPA and a stellar academic record throughout the years." />
+            info = "Top 1.5% all india CBSE 12th Boards with 98% in PCM (Physics, Chemistry & Maths) alongside Computer Science." />
         </ul>
       
       </div>

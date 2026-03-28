@@ -112,7 +112,7 @@ const about = () => {
                 <div className="flex flex-col items-end justify-center xl:items-center
                 lg:items-center md:items-center sm:items-center xs:items-center">
                   <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                    <AnimatedNumbers value={9} />+
+                    <AnimatedNumbers value={8.72} />+
                   </span>
                   <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center
                 lg:text-center md:text-center sm:text-center xs:text-center
@@ -123,7 +123,7 @@ const about = () => {
                 <div className="flex flex-col items-end justify-center xl:items-center
                 lg:items-center md:items-center sm:items-center xs:items-center">
                   <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                    <AnimatedNumbers value={200} />+
+                    <AnimatedNumbers value={400} />+
                   </span>
                   <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center
                 lg:text-center md:text-center sm:text-center xs:text-center
