@@ -7,7 +7,7 @@ export default function VersionSwitch() {
   return (
 
     <a
-      href="https://kapil-maan.vercel.app"
+      href="https://kapil-portfolio-v2.vercel.app"
 
       className="
         fixed
@@ -30,9 +30,10 @@ export default function VersionSwitch() {
 
         text-white
 
-        shadow-2xl
-
+        font-mont
         font-medium
+
+        shadow-2xl
 
         animate-bounce
         hover:animate-none

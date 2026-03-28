@@ -4,6 +4,8 @@ import Head from 'next/head'
 import NavBar from '@/components/NavBar';
 import { AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/router';
+import VersionSwitch from '@/components/VersionSwitch';
+
 const montserrat = Montserrat({
   subsets : ["latin"],
   variable : "--font-mont"
@@ -22,6 +24,8 @@ export default function App({ Component, pageProps }) {
       <AnimatePresence mode='wait'>
       <Component key={router.asPath} {...pageProps} />
       </AnimatePresence>
+
+      <VersionSwitch/>
     </main>
     </>
   )
