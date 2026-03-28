@@ -7,7 +7,7 @@ export default function VersionSwitch() {
   return (
 
     <a
-      href="https://kapil-portfolio-v2.vercel.app"
+      href="https://kapil-maan.vercel.app"
 
       className="
         fixed
